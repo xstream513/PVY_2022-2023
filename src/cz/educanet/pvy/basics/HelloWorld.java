@@ -11,37 +11,6 @@ class HelloWorld {
     printExtraMessage();
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   public static void printExtraMessage() {
     System.out.println();
     System.out.println("*".repeat(40));
@@ -50,7 +19,7 @@ class HelloWorld {
     System.out.println("Today is: " + currentDate);
 
     DayOfWeek currentDay = LocalDateTime.now().getDayOfWeek();
-    if (currentDay.equals(DayOfWeek.THURSDAY)) {
+    if (currentDay.equals(DayOfWeek.FRIDAY)) {
       System.out.println("Today we are learning Java.");
     } else {
       System.out.println("Today we are not learning Java.");
