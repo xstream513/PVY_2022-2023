@@ -18,6 +18,12 @@ public class Retezce {
         String prvniZnakSubstring = patek.substring(0,1);
         System.out.println(vypis);
 
+        String a = "Pondělí";
+        String b = "Pátek";
+        boolean c = a.equals(b);
+
+
+
         char ch = 'A';
         String s = String.valueOf(ch);
 
